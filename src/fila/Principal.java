@@ -11,7 +11,7 @@ public class Principal {
 		f.entrar(9);
 		f.entrar(18);
 		f.entrar(36);
-		f.sair();
+		f.sair(9);
 		
 		f.listar();
 		

@@ -11,7 +11,7 @@ public class Fila {
 		
 	}
 	
-	public int sair() {
+	public int sair(int n) {
 		No aux = final_fila;
 		
 		if(aux == null) {

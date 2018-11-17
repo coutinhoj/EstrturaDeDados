@@ -69,7 +69,7 @@ public class Lista_Dupla_Encadeada {
 			
 	}
 	
-	//inserir metodo inserir ordenado
+	//metodo inserir ordenado
 	public void insere_ordenado (int n) {
 		
 		Nod aux = cabeca_lista;
@@ -107,11 +107,10 @@ public class Lista_Dupla_Encadeada {
 	}
 	
 	
-	public Nod localizar (int n) {
+	public Nod localizar(int conteudo) {
 		Nod aux = cabeca_lista;
-		
-		while(aux!= null && aux.info!= n) {
-			aux = aux.prox;	
+		while (aux != null && aux.info != conteudo) {
+			aux = aux.prox;
 		}
 		return aux;
 	}

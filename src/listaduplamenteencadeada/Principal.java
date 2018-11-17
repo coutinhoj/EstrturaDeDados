@@ -11,7 +11,7 @@ public class Principal {
 	   l.insere_fim(19);
 	   l.insere_fim(9);
 	   l.insere_ordenado(4);
-	   l.localizar(10);
+	   l.localizar(2); //rever localizar
 	   //l.remover(2);
 	   l.listar();
 	   

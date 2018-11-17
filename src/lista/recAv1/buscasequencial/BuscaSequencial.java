@@ -1,14 +1,14 @@
-package lista1.buscasequencial;
+package lista.recAv1.buscasequencial;
 
 import java.util.Scanner;
 
-public class Busca {
+public class BuscaSequencial {
 	
-public  static void main (String [] args){
+   public  static void main (String [] args){
 		
 		Scanner b = new Scanner (System.in);
 		
-		int [] vet = {4,78,12,3,65,21,34,77,98,11};
+		int [] vet = {8,24,76,9,42,18,44,21,12,93};
 		
 		System.out.println("Digite um número para busca: ");
 		int num = b.nextInt();
@@ -30,6 +30,5 @@ public  static void main (String [] args){
 		
 		b.close();
 	} 
-	
 
 }
