@@ -1,8 +1,10 @@
-package fila;
+package lista2.fila;
+
+import fila.No;
 
 public class Fila {
 	
-	No final_fila;
+No final_fila;
 	
 	public void entrar(int n) {
 		No novo_no = new No(n);
@@ -46,5 +48,6 @@ public class Fila {
 		}
 		System.out.println(fila);
 	}
+
 
 }

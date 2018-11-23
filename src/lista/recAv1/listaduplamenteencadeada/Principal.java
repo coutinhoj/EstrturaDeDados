@@ -9,7 +9,7 @@ Lista l = new Lista();
 		l.inserir(19);
 		l.inserir(24);
 		l.inserir(58);
-		//l.excluir_inicio();
+		l.excluirInicio();
 		l.listar();
 	}
 

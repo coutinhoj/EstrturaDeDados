@@ -6,5 +6,7 @@ public class Principal {
 		
 		Arvore a = new Arvore();
 		
+		//a.insere(r, 2);
+		
 	}
 }

@@ -20,5 +20,9 @@ public class Arvore {
 			}
 		}
 	}
+	
+	public void remove(No r, int n) {
+	
+	}
 
 }

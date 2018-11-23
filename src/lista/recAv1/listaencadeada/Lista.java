@@ -48,7 +48,15 @@ private No cabeca_lista;
 	}
 	
 	//metodo Excluir elemento N qualquer, onde N é o conteúdo de um nó da lista (falta)
-	public void excluir_elemento_n() {
+	public void excluir_elemento_n(int conteudo) {
+		No novo_no = new No(conteudo);
 		
+		if(cabeca_lista == null) {
+			System.out.println("Lista Vazia");
+		}else {
+			No aux = cabeca_lista;
+			cabeca_lista = novo_no.prox;
+			
+		}	  
 	}
 }

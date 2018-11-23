@@ -11,9 +11,24 @@ public class Lista {
 		fim =null;
 	}
 	
-	//falta
+	//metodo inserir ok
 	public void inserir (int conteudo) {
+		No novo_no = new No(conteudo);
 		
+		if(inicio == null){
+			inicio= novo_no;
+			fim = novo_no;
+			fim.proximo = novo_no;
+		}else
+			fim.proximo = novo_no;
+		    novo_no.proximo = inicio;
+		    fim = novo_no;
+	}
+	
+	//metodo excluir ok
+	public void excluirInicio() {
+		inicio = inicio.proximo;
+		fim.proximo =inicio;
 	}
 	
 	public String listar(){

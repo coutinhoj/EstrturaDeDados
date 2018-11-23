@@ -12,7 +12,7 @@ public static void main (String [] args) {
 		l.inserir(56);
 		l.excluir_inicio();
 		l.listar();
-		//l.remover_inicio();
+		l.excluir_elemento_n(34);
 		
 		
 	}

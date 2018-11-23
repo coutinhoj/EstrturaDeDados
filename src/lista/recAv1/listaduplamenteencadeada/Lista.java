@@ -9,6 +9,7 @@ private Nod cabeca_lista;
 		cabeca_lista = null;
 	}
 	
+	//metodo inserir ok
 	public void inserir (int conteudo) {
 		Nod novo_no = new Nod(conteudo);
 
@@ -23,6 +24,26 @@ private Nod cabeca_lista;
 			aux.prox = novo_no;
 		}
 	}
+	
+
+	public int excluirInicio() {
+		
+		int n =-1;
+		
+		if(cabeca_lista == null) {
+			System.out.println("Erro! Lista vazia");
+		}else {
+			n=cabeca_lista.info;
+			cabeca_lista = cabeca_lista.prox;
+			cabeca_lista.ant = null;
+		}
+		
+		
+		return n;
+		
+	}
+	
+
 	//metodo listar ok
 	public void listar () {
 		

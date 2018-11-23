@@ -8,8 +8,7 @@ public class Pricipal {
 		l.inserir(56);
 		l.inserir(34);
 		l.inserir(45);
-		
-		//l.remover_fim();
+		l.excluirInicio();
 		
 		String Lista_Circular = l.listar();
 	}
